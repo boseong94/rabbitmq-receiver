@@ -1,0 +1,23 @@
+{
+  "name": "rabbitmq-receiver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node receive.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boseong94/rabbitmq-receiver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boseong94/rabbitmq-receiver/issues"
+  },
+  "homepage": "https://github.com/boseong94/rabbitmq-receiver#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
